@@ -38,7 +38,7 @@ jobs:
           types: snake,stats,top-langs
 
       # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
+      # the content will be available at https://cdn.jsdelivr.net/gh/<github_user>/<repository>@<target_branch>/<file> , or as github page
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
