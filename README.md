@@ -2,6 +2,24 @@
 
 Generate Snake, Stats, and Top Langs SVGs for your GitHub Profile.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-light.svg" />
+  <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-dark.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-light.svg" />
+  <img alt="github-stats" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-dark.svg" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-light.svg" />
+  <img alt="github-top-langs" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
+</picture>
+
 ## Usage
 
 Create a workflow file (e.g., `.github/workflows/profile-charts.yml`) with the following content:
