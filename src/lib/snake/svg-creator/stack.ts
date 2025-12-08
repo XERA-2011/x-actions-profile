@@ -48,7 +48,7 @@ export const createStack = (
       h("rect", {
         class: `u ${id}`,
         height: sizeDot,
-        width: (ts.length * m).toFixed(1),
+        width: (ts.length * m + 0.5).toFixed(1),
         x,
         y,
       }),
@@ -59,9 +59,9 @@ export const createStack = (
         animationName,
         [
           ...ts
-            .map((t, i, { length }) => [
-              { scale: i / length, t: t - 0.0001 },
-              { scale: (i + 1) / length, t: t + 0.0001 },
+            .map((t, i) => [
+              { scale: i / ts.length, t: t - 0.0001 },
+              { scale: (i + 1) / ts.length, t: t + 0.0001 },
             ])
             .flat(),
           { scale: 1, t: 1 },
