@@ -1,0 +1,19 @@
+name: 'X Profile Charts'
+description: 'Generate Snake, Stats, and Top Langs SVGs for your GitHub Profile'
+author: 'XERA-2011'
+inputs:
+  token:
+    description: 'GitHub Token'
+    required: true
+  user:
+    description: 'GitHub Username'
+    required: true
+  output_dir:
+    description: 'Directory to output SVGs'
+    default: 'dist'
+  types:
+    description: 'Comma separated list of charts to generate: snake,stats,top-langs'
+    default: 'snake,stats,top-langs'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

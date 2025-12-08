@@ -1,0 +1,29 @@
+name: Test Action
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Action
+        uses: ./
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          output_dir: test-output
+          types: snake,stats,top-langs
+
+      - name: Verify Output
+        run: |
+          ls -la test-output
+          if [ ! -f test-output/snake.svg ]; then exit 1; fi
+          if [ ! -f test-output/stats.svg ]; then exit 1; fi
+          if [ ! -f test-output/top-langs.svg ]; then exit 1; fi
