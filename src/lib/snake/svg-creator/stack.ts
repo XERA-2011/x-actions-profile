@@ -48,7 +48,7 @@ export const createStack = (
       h("rect", {
         class: `u ${id}`,
         height: sizeDot,
-        width: (ts.length * m + 0.6).toFixed(1),
+        width: (ts.length * m).toFixed(1),
         x,
         y,
       }),
