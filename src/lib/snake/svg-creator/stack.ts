@@ -74,7 +74,7 @@ export const createStack = (
       `.u.${id} {
         fill: var(--c${color});
         animation-name: ${animationName};
-        transform-origin: ${x}px 0
+        transform-origin: ${x}px 0;
       }
       `,
     );
