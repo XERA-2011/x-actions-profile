@@ -24,6 +24,6 @@ jobs:
       - name: Verify Output
         run: |
           ls -la test-output
-          if [ ! -f test-output/snake.svg ]; then exit 1; fi
-          if [ ! -f test-output/stats.svg ]; then exit 1; fi
-          if [ ! -f test-output/top-langs.svg ]; then exit 1; fi
+          if [ ! -f test-output/snake-dark.svg ]; then exit 1; fi
+          if [ ! -f test-output/stats-dark.svg ]; then exit 1; fi
+          if [ ! -f test-output/top-langs-dark.svg ]; then exit 1; fi
