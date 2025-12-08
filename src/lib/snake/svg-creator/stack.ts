@@ -40,7 +40,7 @@ export const createStack = (
   for (const { color, ts } of blocks) {
     const id = "u" + (i++).toString(36);
     const animationName = id;
-    const x = (nx * m).toFixed(1);
+    const x = (nx * m - (i === 1 ? 0 : 0.6)).toFixed(1);
 
     nx += ts.length;
 
@@ -48,7 +48,7 @@ export const createStack = (
       h("rect", {
         class: `u ${id}`,
         height: sizeDot,
-        width: (ts.length * m + 0.5).toFixed(1),
+        width: (ts.length * m + 1.2).toFixed(1),
         x,
         y,
       }),
