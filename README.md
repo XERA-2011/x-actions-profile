@@ -1,24 +1,45 @@
-# X Profile Charts
+# X-ACTIONS
 
 Generate Snake, Stats, and Top Langs SVGs for your GitHub Profile.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-light.svg" />
-  <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-dark.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-light.svg" />
+    <img alt="github-snake" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/snake-dark.svg" />
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-light.svg" />
-  <img alt="github-stats" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-dark.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-light.svg" />
+    <img alt="github-stats" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/stats-dark.svg" />
+  </picture>
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-light.svg" />
-  <img alt="github-top-langs" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
-</picture>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-light.svg" />
+    <img alt="github-top-langs" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-light.svg" />
+    <img alt="github-top-langs-compact" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-dark.svg" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-donut-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-donut-light.svg" />
+    <img alt="github-top-langs-donut" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-donut-dark.svg" />
+  </picture>
+    <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-cloud-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-cloud-light.svg" />
+    <img alt="github-top-langs-cloud" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-cloud-dark.svg" />
+  </picture>
+</p>
 
 ## Usage
 
