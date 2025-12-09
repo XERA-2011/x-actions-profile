@@ -1,5 +1,5 @@
 {
-  "name": "x-actions",
+  "name": "x-profile",
   "version": "1.0.0",
   "description": "GitHub Action to generate Snake, Stats, and Top Langs SVGs",
   "main": "dist/index.js",
