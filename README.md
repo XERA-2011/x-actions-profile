@@ -1,4 +1,4 @@
-# X-ACTIONS
+# X-ACTIONS-PROFILE
 
 Generate Snake, Stats, and Top Langs SVGs for your GitHub Profile.
 
