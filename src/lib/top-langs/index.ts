@@ -107,7 +107,7 @@ export function renderVerticalLayout(languages: LanguageItem[], theme: Theme, hi
 }
 
 export function renderHorizontalLayout(languages: LanguageItem[], theme: Theme, hideBorder: boolean): string {
-  const cardWidth = 300, cardHeight = 135, padding = 16, contentWidth = 268;
+  const cardWidth = 300, cardHeight = 140, padding = 16, contentWidth = 268;
   const totalColoredWidth = languages.reduce((sum, lang) => sum + (parseFloat(lang.percentage) / 100) * contentWidth, 0);
   let currentX = padding;
   const progressBars = languages.map(lang => {
