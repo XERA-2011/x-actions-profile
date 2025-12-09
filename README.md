@@ -17,14 +17,14 @@ Generate Snake, Stats, and Top Langs SVGs for your GitHub Profile.
     <img alt="github-top-langs-donut" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-donut-dark.svg" />
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-light.svg" />
-    <img alt="github-top-langs-compact" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-dark.svg" />
-  </picture>
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-cloud-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-cloud-light.svg" />
     <img alt="github-top-langs-cloud" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-cloud-dark.svg" />
+  </picture>
+   <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-light.svg" />
+    <img alt="github-top-langs-compact" src="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-compact-dark.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/XERA-2011/x-actions@output/top-langs-dark.svg" />
