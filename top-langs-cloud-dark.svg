@@ -1,0 +1,36 @@
+
+      <svg width="300" height="140" viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg" role="img">
+          <style>
+            .tag { transition: opacity 0.2s ease; cursor: pointer; }
+            .tag:hover { opacity: 0.7; }
+            text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; dominant-baseline: hanging; }
+          </style>
+          <rect width="100%" height="100%" fill="#0d1117" rx="12" stroke="#30363d"/>
+          <g text-anchor="start">
+            
+              <a href="#" class="tag">
+                <text x="72" y="13" font-size="24" font-weight="700" fill="#3178c6">TypeScript</text>
+              </a>
+            
+              <a href="#" class="tag">
+                <text x="54.099999999999994" y="58" font-size="20" font-weight="600" fill="#f1e05a">JavaScript</text>
+              </a>
+            
+              <a href="#" class="tag">
+                <text x="199.1" y="58" font-size="18" font-weight="500" fill="#e34c26">HTML</text>
+              </a>
+            
+              <a href="#" class="tag">
+                <text x="71.625" y="103" font-size="17" font-weight="500" fill="#3572A5">Python</text>
+              </a>
+            
+              <a href="#" class="tag">
+                <text x="152.925" y="103" font-size="16" font-weight="500" fill="#563d7c">CSS</text>
+              </a>
+            
+              <a href="#" class="tag">
+                <text x="199.125" y="103" font-size="15" font-weight="500" fill="#41b883">Vue</text>
+              </a>
+            
+          </g>
+      </svg>

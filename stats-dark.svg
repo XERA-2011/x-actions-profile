@@ -1,0 +1,83 @@
+
+<svg width="450" height="350" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%;">
+      <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .stats-card {
+          width: 100%;
+          min-height: 100%;
+          background: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 12px;
+          padding: 20px;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+          display: flex;
+          flex-direction: column;
+        }
+        .stats-title {
+          font-size: 20px;
+          font-weight: 700;
+          color: #58a6ff;
+          margin-bottom: 20px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+      </style>
+      <div class="stats-card">
+        <div class="stats-title">
+          <span>📊</span>
+          <span>XERA-2011's GitHub Stats</span>
+        </div>
+        <div>
+          
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #30363d;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 16px;">⭐</span>
+            <span style="color: #c9d1d9; font-size: 14px;">Total Stars:</span>
+          </div>
+          <span style="color: #58a6ff; font-size: 16px; font-weight: 700;">2</span>
+        </div>
+      
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #30363d;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 16px;">📝</span>
+            <span style="color: #c9d1d9; font-size: 14px;">Total Commits:</span>
+          </div>
+          <span style="color: #58a6ff; font-size: 16px; font-weight: 700;">150</span>
+        </div>
+      
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #30363d;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 16px;">🔀</span>
+            <span style="color: #c9d1d9; font-size: 14px;">Total PRs:</span>
+          </div>
+          <span style="color: #58a6ff; font-size: 16px; font-weight: 700;">8</span>
+        </div>
+      
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; border-bottom: 1px solid #30363d;">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 16px;">❗</span>
+            <span style="color: #c9d1d9; font-size: 14px;">Total Issues:</span>
+          </div>
+          <span style="color: #58a6ff; font-size: 16px; font-weight: 700;">5</span>
+        </div>
+      
+        <div style="display: flex; justify-content: space-between; align-items: center; padding: 12px 0; ">
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-size: 16px;">🤝</span>
+            <span style="color: #c9d1d9; font-size: 14px;">Contributed to:</span>
+          </div>
+          <span style="color: #58a6ff; font-size: 16px; font-weight: 700;">1</span>
+        </div>
+      
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
