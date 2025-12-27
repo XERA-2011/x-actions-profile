@@ -1,0 +1,14 @@
+
+      <svg width="300" height="140" viewBox="0 0 300 140" xmlns="http://www.w3.org/2000/svg" role="img">
+          <style>
+            .donut-segment { fill: transparent; stroke-width: 20; }
+            text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 12px; dominant-baseline: middle; fill: #c9d1d9; }
+          </style>
+          <rect width="100%" height="100%" fill="#0d1117" rx="12" stroke="#30363d"/>
+          <g transform="translate(70, 70) rotate(-90)">
+            <circle class="donut-segment" r="45" stroke="#336790" stroke-dasharray="126.95175913156355 282.7433388230814" stroke-dashoffset="-0"/><circle class="donut-segment" r="45" stroke="#b07219" stroke-dasharray="71.25132138341651 282.7433388230814" stroke-dashoffset="-126.95175913156355"/><circle class="donut-segment" r="45" stroke="#e38c00" stroke-dasharray="35.06017401406209 282.7433388230814" stroke-dashoffset="-198.20308051498003"/><circle class="donut-segment" r="45" stroke="#3178c6" stroke-dasharray="24.881413816431163 282.7433388230814" stroke-dashoffset="-233.26325452904214"/><circle class="donut-segment" r="45" stroke="#f1e05a" stroke-dasharray="17.812830345854128 282.7433388230814" stroke-dashoffset="-258.1446683454733"/><circle class="donut-segment" r="45" stroke="#3572A5" stroke-dasharray="2.827433388230814 282.7433388230814" stroke-dashoffset="-275.95749869132743"/>
+          </g>
+          <g transform="translate(150, 21)">
+            <g transform="translate(0, 0)"><circle cx="5" cy="0" r="5" fill="#336790"/><text x="15">PLpgSQL 44.9%</text></g><g transform="translate(0, 18)"><circle cx="5" cy="0" r="5" fill="#b07219"/><text x="15">Java 25.2%</text></g><g transform="translate(0, 36)"><circle cx="5" cy="0" r="5" fill="#e38c00"/><text x="15">TSQL 12.4%</text></g><g transform="translate(0, 54)"><circle cx="5" cy="0" r="5" fill="#3178c6"/><text x="15">TypeScript 8.8%</text></g><g transform="translate(0, 72)"><circle cx="5" cy="0" r="5" fill="#f1e05a"/><text x="15">JavaScript 6.3%</text></g><g transform="translate(0, 90)"><circle cx="5" cy="0" r="5" fill="#3572A5"/><text x="15">Python 1.0%</text></g>
+          </g>
+      </svg>
